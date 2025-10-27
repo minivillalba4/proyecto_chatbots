@@ -1,0 +1,42 @@
+2025-10-27 15:28:35 - preprocessing - INFO - ================================================================================
+2025-10-27 15:28:35 - preprocessing - INFO - INICIANDO PIPELINE DE PREPROCESAMIENTO
+2025-10-27 15:28:35 - preprocessing - INFO - ================================================================================
+2025-10-27 15:28:35 - preprocessing - INFO - 
+[ETAPA 1/7] CARGA DE DATOS
+2025-10-27 15:28:35 - preprocessing - INFO - --------------------------------------------------------------------------------
+2025-10-27 15:28:35 - preprocessing - INFO - Productos cargados: 1048
+2025-10-27 15:28:35 - preprocessing - INFO - Columnas: 24
+2025-10-27 15:28:35 - preprocessing - INFO - 
+[ETAPA 2/7] LIMPIEZA DE DATOS
+2025-10-27 15:28:35 - preprocessing - INFO - --------------------------------------------------------------------------------
+2025-10-27 15:28:35 - preprocessing - INFO - Productos después de limpieza: 1037 (removidos: 11)
+2025-10-27 15:28:35 - preprocessing - INFO - 
+[ETAPA 3/7] NORMALIZACIÓN DE VALORES NUMÉRICOS
+2025-10-27 15:28:35 - preprocessing - INFO - --------------------------------------------------------------------------------
+2025-10-27 15:28:35 - preprocessing - INFO - Normalización completada: 1037 productos
+2025-10-27 15:28:35 - preprocessing - INFO - 
+[ETAPA 4/7] VALIDACIÓN DE CALIDAD
+2025-10-27 15:28:35 - preprocessing - INFO - --------------------------------------------------------------------------------
+2025-10-27 15:28:35 - preprocessing - INFO - Validación completada: 111 outliers detectados, 0 productos con inconsistencias
+2025-10-27 15:28:35 - preprocessing - INFO - 
+[ETAPA 5/7] INGENIERÍA DE CARACTERÍSTICAS
+2025-10-27 15:28:35 - preprocessing - INFO - --------------------------------------------------------------------------------
+2025-10-27 15:28:35 - preprocessing - INFO - Características creadas: 18 nuevas columnas
+2025-10-27 15:28:35 - preprocessing - INFO - 
+[ETAPA 6/7] NORMALIZACIÓN DE TEXTO PARA NLP
+2025-10-27 15:28:35 - preprocessing - INFO - --------------------------------------------------------------------------------
+2025-10-27 15:28:35 - preprocessing - INFO - Campos de texto normalizados: 9
+2025-10-27 15:28:35 - preprocessing - INFO - 
+[ETAPA 7/7] EXPORTACIÓN DE RESULTADOS
+2025-10-27 15:28:35 - preprocessing - INFO - --------------------------------------------------------------------------------
+2025-10-27 15:28:35 - preprocessing - INFO - Guardando CSV en: c:\Users\isma_\Desktop\proyecto_chatbots\Data\clean\productos_unificados_clean.csv
+2025-10-27 15:28:35 - preprocessing - INFO - CSV guardado: 1037 filas, 43 columnas
+2025-10-27 15:28:35 - preprocessing - INFO - ================================================================================
+2025-10-27 15:28:35 - preprocessing - INFO - PIPELINE COMPLETADO EXITOSAMENTE
+2025-10-27 15:28:35 - preprocessing - INFO - ================================================================================
+2025-10-27 15:28:35 - preprocessing - INFO - Productos: 1048 → 1037 (11 removidos, 1.0%)
+2025-10-27 15:28:35 - preprocessing - INFO - Columnas: 24 → 43 (+19 características)
+2025-10-27 15:28:35 - preprocessing - INFO - Duración: 0.40 segundos
+2025-10-27 15:28:35 - preprocessing - INFO - Archivo CSV: c:\Users\isma_\Desktop\proyecto_chatbots\Data\clean\productos_unificados_clean.csv
+2025-10-27 15:28:35 - preprocessing - INFO - Log: c:\Users\isma_\Desktop\proyecto_chatbots\Data\clean\preprocessing.log
+2025-10-27 15:28:35 - preprocessing - INFO - ================================================================================
